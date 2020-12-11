@@ -1,0 +1,59 @@
+.lesson-details{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.ability-box{
+    margin-top: 30px;
+}
+
+.gallery-box-absolute{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 70px;
+    width: 100%;
+    background: rgba(47, 48, 58, 0.8);
+}
+
+.gallery-text-photo{
+    padding-top: 27px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.142;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--background-color-white);
+}
+
+.ability-box::before {
+    content: '';
+    display: block;
+    background-color: var(--bg-btn-color-white-gray);
+    height: 120px;
+    border-radius: 4px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ability-box:nth-child(1)::before{
+    background-image: url(../photo/sprite/lesson-details/Vector.svg);
+}
+
+.ability-box:nth-child(2)::before{
+    background-image: url(../photo/sprite/lesson-details/Vector-2.svg);
+}
+
+.ability-box:nth-child(3)::before{
+    background-image: url(../photo/sprite/lesson-details/Vector-3.svg);
+}
+
+.ability-box:nth-child(4)::before{
+    background-image: url(../photo/sprite/lesson-details/astronaut.svg);
+}
+
+.ability{
+    display: flex; 
+    flex-wrap: wrap;
+}

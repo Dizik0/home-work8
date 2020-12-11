@@ -1,0 +1,128 @@
+header{
+    position: fixed;
+    left: 0;
+    right: 0;
+    background-color: var(--background-color-white);
+    padding-top: 16px;
+    padding-bottom: 16px;
+    align-items: center;
+    display: flex;
+    z-index: 55;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 1px solid #ECECEC;
+}
+
+.menu{
+    display: none;
+}
+
+.nav-contact{
+    display: none;
+}
+           
+.header .container{
+    display: flex;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav{
+    margin-right: auto;
+}
+
+.nav-text{
+    color: var(--secondary-color-black);
+    line-height: 1.142;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    position: relative;
+    transition-duration: 300ms;
+}    
+
+.logo{
+    font-family: 'raleway', 'sans-serif';
+    color: var(--secondary-color-black);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.23;
+    letter-spacing: 0.03em;
+    justify-content: center;
+}
+
+.text-nav{
+    margin-bottom: 52px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.166;
+    letter-spacing: 0.02em;
+}
+
+.text-nav:not(:last-child){
+    margin-bottom: 0px;
+}
+
+.text-nav:hover::after,
+.text-nav:focus::after{
+    opacity: 1;
+}
+
+.text-nav::after {
+    content: "";
+    position: absolute; 
+    margin-top: 8px;
+    border-radius: 2px;
+    border: 2px solid var(--accent-color-blue);
+    display: block;
+    transition-duration: 300ms;
+    left: 165px;
+    right: 165px;
+    background-color: var(--accent-color-blue);
+    pointer-events: none;
+    opacity: 0;
+}
+
+.text-nav.focus-studio::after{
+    right: 185px;
+    left: 185px;
+}
+
+.text-nav.gg::after{
+    right: 170px;
+    left: 170px;
+}
+
+.focus-studio::after{
+    opacity: 1;
+}
+
+.logo-blye{
+    color: var(--accent-color-blue);
+}
+
+.focus-studio.nav-text{
+    color: var(--accent-color-blue);
+}
+
+.nav-contact-screen{
+    text-align: center;
+    margin-top: 60px;
+}
+
+.test{
+    display: none;
+}
+
+.link-svg{
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.166;
+    letter-spacing: 0.02em;
+}

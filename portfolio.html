@@ -15,11 +15,11 @@
       <div class="test">
         <nav class="nav">
           <ul class="menu">
-            <li class=" nav-text">
-              <a href="index.html" class="link text-nav">Студия</a>
-            </li>
             <li class="focus-studio nav-text">
-              <a href="#" class="link focus-studio text-nav">Портфолио</a>
+              <a href="#" class="link focus-studio text-nav">Студия</a>
+            </li>
+            <li class="nav-text">
+              <a href="portfolio.html" class="link text-nav">Портфолио</a>
             </li>
             <li class="nav-text">
               <a href="#contact" class="link text-nav">Контакты</a>
@@ -43,10 +43,16 @@
           </li>
         </ul>
       </div>
-      <button class="btn-screen">X</button>
+      <button class="btn-screen is-open" aria-controls="menu-container" data-menu-button>
+        <svg class="svg-btn-modal"
+        aria-label="Переключатель мобильного меню">
+          <use class="btn-menu-open" href="/photo/sprite/symbol-defs-menu.svg#menu-open"></use>
+          <use class="btn-menu-close" href="/photo/sprite/symbol-defs-menu.svg#menu-close"></use>
+        </svg>
+      </button>
     </div>
   </header>
-  <div class="screen-box">
+  <div class="screen-box is-open container" aria-controls="menu-container" data-menu> 
     <div class="screen-box-modal">
       <ul class="menu-screen">
         <li class="focus-studio nav-text">
@@ -380,5 +386,6 @@
       </div>
     </div>
   </footer>
+  <script src="./js/menu.js"></script>
 </body>
 </html>

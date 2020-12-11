@@ -1,0 +1,53 @@
+.air{
+    height: 60px;
+} 
+
+.hero{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: var(--bg-color-sektion);
+    width: 100%;
+    height: 400px;
+    padding: 118px 0;
+    background-image:linear-gradient(to right, rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url(../photo/bg/Img-bg.jpg);
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero-box{
+    margin-left: auto;
+    margin-right: auto;
+    width: 450px;
+    height: 200px;
+    text-align: center;
+}
+
+.hero-text{
+    color: var(--background-color-white);
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 1.62;    
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.ability-headlines{
+    color: var(--secondary-color-black);
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 0.875;
+    letter-spacing: 0.03em; 
+    margin-top: 30px;
+    text-align: center;
+}
+
+.ability-text{
+    font-size: 14px;
+    line-height: 1.714; 
+    letter-spacing: 0.03em;
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+}

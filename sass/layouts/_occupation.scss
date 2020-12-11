@@ -1,0 +1,24 @@
+.classes{
+    color: var(--secondary-color-black);
+    text-align: center;
+    font-size: 36px;
+    line-height: 1.166;
+    letter-spacing: 0.03em;
+}
+
+.our-occupation{
+    margin-top: 94px;
+    display: none;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.photo-occupation{
+    margin-top: 50px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}

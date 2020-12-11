@@ -1,0 +1,394 @@
+@media screen and (min-width: 768px){
+    .container{
+        width: 768px;
+    }
+
+    .container-footer{
+        width: 768px;
+    }
+
+    .screen-box.container{
+        display: none;
+    }
+    
+    .test{
+        display: flex;
+        align-items: center;
+    }
+
+    .container.header-container{
+        align-items: center;
+    }
+
+    .menu{
+        display: flex;
+    }
+    
+    .nav-contact{
+        display: block;
+        align-items: center;
+    }
+
+   
+
+    .text-nav{
+        display: inline;
+        margin-bottom: 0;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.142;
+        letter-spacing: 0.02em;   
+    }
+
+    .header{
+        height: 80px;
+    }
+
+    .text-nav::after{
+        margin-top: 29px;
+        left: 0;
+        right: 0;
+
+    }
+
+    .text-nav.focus-studio::after{
+        left: 0;
+        right: 0;
+    }
+
+     .nav-text{
+        margin-right: 50px;
+    }
+    
+    .nav-text:last-child {
+        margin-right: 84px;
+    }
+
+    .link-contact{
+        margin-bottom: 10px;
+    }
+
+    .link-contact:last-child{
+        margin-bottom: 0px;
+    }
+
+    .link-svg{
+        margin-bottom: 0px;
+        margin-right: 0px;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 1.166;
+        letter-spacing: 0.02em;
+    }
+
+    .btn-screen{
+        display: none;
+    }
+}
+@media screen and (min-width: 768px){
+    .hero{
+        width: 100%;
+        height: 400px;
+    }
+
+    .ability-box{
+    margin-left: 30px;
+    flex-basis: calc(100% / 2 - 30px);
+    }
+    
+    .ability{
+        margin-left: -30px;
+        margin-top: -30px;
+    }
+}
+@media screen and (min-width: 768px){
+    .img-photo-team{
+        width: 354px;
+        height: 374px;
+    }
+
+    .name-profession{
+        width: 354px;
+    }
+
+    .team-photo{
+        margin-left: -30px;
+        margin-top: -50px;
+    }
+
+    .team-photo-item{
+        margin-left: 30px;
+        margin-top: 30px
+    }
+}
+@media screen and (min-width: 768px){
+    .item-client{
+        flex-basis: calc(100% / 3 - 30px);
+    }
+    
+    .clients-list{
+        margin-top: -30px;
+    }
+
+    .classes{
+        margin-bottom: 30px;
+    }
+}
+@media screen and (min-width: 768px){
+    .footer .logo{
+        margin-left: 40px;
+        text-align: center;
+    }
+
+    .footer{
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .map{
+        font-size: 14px;
+        line-height: 1.71;
+        text-align: center;
+        letter-spacing: 0.03em;
+    }
+    
+    .contact{
+        text-align: inherit;
+        font-size: 14px;
+        line-height: 1.71;
+        text-align: center;
+        letter-spacing: 0.03em;
+    }
+
+    .footer-box-link-btn{
+        display: flex;
+    }
+
+    .mailing{
+        text-align: center;
+    }
+
+    .btn-footer{
+        display: block;
+        margin-left: 215px;
+    }
+
+    .footer-clases{
+        font-size: 14px;
+        line-height: 1.333;
+        text-align: center;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+    }
+
+    .container-footer{
+        padding: 60px 89px 60px 76px;
+    }
+
+    .social-footer{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .box-footer{
+        margin-top: 0px;
+        margin-left: 165px;
+    }
+}
+@media screen and (min-width: 1200px){
+    .container{
+        width: 1200px;
+    }
+
+    .container-footer{
+        width: 1200px;
+    }
+
+    .nav-contact{
+        display: flex;
+        margin-left: 215px;
+    }
+
+    .link-svg{
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.333;
+        letter-spacing: 0.02em;
+        
+    }
+
+    .link-contact{
+        margin-left: 30px; 
+        margin-bottom: 0px; 
+    }
+
+    .link-contact:first-child{
+        margin-left: 0px;
+    }
+}
+@media screen and (min-width: 1200px){
+    .hero{
+        width: 100%;
+        height: 600px;
+        padding-top: 200px;
+        padding-bottom: 200px;
+    }
+    
+    .hero-box{
+        width: 696px;
+        height: 120px;
+    }
+
+    .hero-text{
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+    }
+}
+@media screen and (min-width: 1200px){
+    .lesson-details{
+        padding-top: 95px;
+        padding-bottom: 95px;
+    }
+
+    .ability-box{
+        margin-left: 30px;
+        flex-basis: calc(100% / 4 - 30px);
+        }
+        
+        .ability{
+            margin-left: -30px;
+            margin-top: -30px;
+        }
+}
+@media screen and (min-width: 1200px){
+    .our-occupation{
+        display: block;
+    }
+
+    .gallery{
+        margin-top: -30px;
+    }
+}
+@media screen and (min-width: 1200px){
+    .img-photo-team{
+        width: 270px;
+        height: 260px;
+    }
+
+    .name-profession{
+        width: 270px;
+    }
+
+    .team{
+        padding-top: 95px;
+        padding-bottom: 95px;
+    }
+
+    .team-photo{
+        margin-top: -10px;
+    }
+}
+@media screen and (min-width: 1200px){
+    .clients-box{
+        padding-top: 95px;
+        padding-bottom: 95px;
+    }
+
+    .item-client{
+        flex-basis: calc(100% / 6 - 30px);
+    }
+}
+@media screen and (min-width: 1200px){
+    .footer .logo{
+        margin-left: 0px;
+    }
+
+    .container-footer{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .footer-logo-link{
+        width: 231px;
+    }
+
+    .contact{
+        text-align: inherit;
+    }
+
+    .mailing{
+        display: flex;
+    }
+
+    .box-footer{
+        margin-left: 70px;
+    }
+
+    .mail-footer{
+        margin-top: 0px;
+        margin-left: 95px;
+    }
+
+    .btn-footer{
+        margin-left: 12px;
+        margin-top: 0px;
+    }
+
+    .container-footer{
+        display: flex;
+    }
+
+    .mail{
+        width: 358px;
+        margin-right: 0px;
+    }
+
+    .footer-clases{
+        font-size: 14px;
+        line-height: 1.333;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+    }
+}
+@media screen and (min-width: 1200px){
+    .modal{
+        width: 528px;
+        height: 581px;
+    }
+
+    .text-modal{
+        font-size: 20px;
+        line-height: 1.15;
+        text-align: center;
+        letter-spacing: 0.03em;
+        width: 448px;
+    }
+
+    .form-name{
+        width: 448px;
+    }
+
+    .coment{
+        width: 448px;
+    }
+
+    .box-checkbox{
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+    }
+
+    .link-modal{
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+    }
+
+    .btn-modal{
+        margin-left: 115px;
+    }
+}

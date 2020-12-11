@@ -4,6 +4,10 @@
     }
     .container{
         width: 768px;
+        
+        &.header-container{
+            align-items: center;
+        }
     }
 
     .container-footer{
@@ -16,10 +20,6 @@
 
     .test{
         display: flex;
-        align-items: center;
-    }
-
-    .container.header-container{
         align-items: center;
     }
 
@@ -39,38 +39,39 @@
         font-size: 14px;
         line-height: 1.142;
         letter-spacing: 0.02em;   
+
+        &::after{
+            margin-top: 29px;
+            left: 0;
+            right: 0;
+        }
+    
+        &.focus-studio::after{
+            left: 0;
+            right: 0;
+        }
     }
 
     .header{
         height: 80px;
     }
 
-    .text-nav::after{
-        margin-top: 29px;
-        left: 0;
-        right: 0;
 
-    }
-
-    .text-nav.focus-studio::after{
-        left: 0;
-        right: 0;
-    }
 
     .nav-text{
         margin-right: 50px;
-    }
-
-    .nav-text:last-child {
-        margin-right: 84px;
+        
+        &:last-child {
+            margin-right: 84px;
+        }
     }
 
     .link-contact{
         margin-bottom: 10px;
-    }
 
-    .link-contact:last-child{
-        margin-bottom: 0px;
+        &:last-child{
+            margin-bottom: 0px;
+        }
     }
 
     .link-svg{
@@ -121,21 +122,24 @@
         margin-left: 30px;
         margin-top: 30px;
         flex-basis: calc(100% / 2 - 30px);
+
+        &.kostil{
+            height: 440px;
+        }
     }
 
-    .photo-item.kostil{
-        height: 440px;
-    }
+
 }
 @media screen and (min-width: 768px){
-    .footer .logo{
-        margin-left: 40px;
-        text-align: center;
-    }
 
     .footer{
         padding-top: 0px;
         padding-bottom: 0px;
+
+        & .logo{
+            margin-left: 40px;
+            text-align: center;
+        }
     }
 
     .map{
@@ -218,10 +222,10 @@
     .link-contact{
         margin-left: 30px; 
         margin-bottom: 0px; 
-    }
-
-    .link-contact:first-child{
-        margin-left: 0px;
+            
+        &:first-child{
+            margin-left: 0px;
+        }
     }
 }
 @media screen and (min-width: 1200px){
@@ -234,7 +238,12 @@
         margin-left: 30px;
         margin-top: 30px;
         flex-basis: calc(100% / 3 - 30px);
+            
+        &.kostil{
+            height: 404px;
+        }
     }
+
     .photo{
         width: 370px;
         height: 294px;
@@ -245,13 +254,9 @@
         height: 294px;
     }
 
-    .photo-item.kostil{
-        height: 404px;
-    }
     .gallery{
         margin-top: 20px;
-    }
-    
+    }   
 }
 @media screen and (min-width: 1200px){
     .footer .logo{
@@ -265,7 +270,6 @@
 
     .footer-logo-link{
         width: 231px;
-
     }
 
     .contact{

@@ -3,10 +3,11 @@
     height: auto;
     padding-top: 60px;
     padding-bottom: 60px;
-}
 
-.footer .logo{
-    color: var(--background-color-white);
+    & .logo{
+        color: var(--background-color-white);
+        margin-left: 163px;
+    }
 }
 
 .address{
@@ -42,7 +43,6 @@
     margin-right: 10px;
 }
 
-
 .social-link-svg{
     display: flex;
     width: 44px;
@@ -52,16 +52,16 @@
     margin-top: 16px;
     align-items: center;
     justify-content: center;
-}
 
-.social-link-svg:hover .social-item-svg,
-.social-link-svg:focus .social-item-svg{
-   fill: var(--background-color-white);
-}
+    &:hover .social-item-svg,
+    &:focus .social-item-svg{
+        fill: var(--background-color-white);
+    }
 
-.social-link-svg:hover,
-.social-link-svg:focus{
-    background-color: var(--accent-color-blue);
+    &:hover,
+    &:focus{
+        background-color: var(--accent-color-blue);
+    }
 }
 
 .social-item-svg{
@@ -84,24 +84,23 @@
     fill: #AFB1B8;
     align-items: center;
     justify-content: center;
-}
 
-.link-clients-svg:focus .clients-svg ,
-.link-clients-svg:hover .clients-svg{
-    fill: var(--accent-color-blue);
-     transition-duration: 300ms;
-}
+    &:focus .clients-svg ,
+    &:hover .clients-svg{
+        fill: var(--accent-color-blue);
+        transition-duration: 300ms;
+    }
 
-.link-clients-svg:focus,
-.link-clients-svg:hover{
-    border: 1px solid var(--accent-color-blue);
+    &:focus,
+    &:hover{
+        border: 1px solid var(--accent-color-blue);
+    }
 }
 
 .clients-list{
     display: flex;
     flex-wrap: wrap;
     margin-left: -30px;
-
 }
 
 .item-client{
@@ -113,10 +112,10 @@
 .social-list{
     margin-left: auto;
     margin-right: auto;
-}
 
-.social-list:not(:last-child){
-    margin-right: 10px;
+    &:not(:last-child){
+        margin-right: 10px;
+    }
 }
 
 .social{
@@ -158,17 +157,17 @@
     justify-content: center;
     background-color: rgba(255, 255, 255, 0.1);
     margin-right: 10px;
+
+    &:hover,
+    &:focus{
+        background-color: var(--accent-color-blue);
+    }
 }
 
 .social-footer{
     display: flex;
     padding-left: 137px;
     padding-right: 137px;
-}
-
-.social-link-footer-svg:hover,
-.social-link-footer-svg:focus{
-    background-color: var(--accent-color-blue);
 }
 
 .footer-clases{
@@ -182,13 +181,6 @@
     text-align: center;
 }  
 
-.mail .btn{
-    font-size: 16px;
-    line-height: 1.87;
-    letter-spacing: 0.06em;
-    transition-duration: 300ms;
-}
-
 .mail{
     width: 450px;
     height: 50px;
@@ -199,21 +191,35 @@
     margin-right: 12px;
     color: var(--background-color-white);
     padding-left: 16px;
-}
 
-.mail::placeholder{
-    font-size: 16px;
-    line-height: 1.25;
-    letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
-}
+    & .btn{
+        font-size: 16px;
+        line-height: 1.87;
+        letter-spacing: 0.06em;
+        transition-duration: 300ms;
+    }
 
-.mail:focus{
-    border-color: var(--accent-color-blue);
-}
+    &::placeholder{
+        font-size: 16px;
+        line-height: 1.25;
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.6);
+    }
+    
+    &:focus{
+        border-color: var(--accent-color-blue);
+    }
+    
+    &:focus::placeholder{
+        color: var(--background-color-white);
+    }
 
-.mail:focus::placeholder{
-    color: var(--background-color-white);
+    &:-webkit-autofill,
+    &:-webkit-autofill:hover, 
+    &:-webkit-autofill:focus{
+        -webkit-text-fill-color: var(--background-color-white);
+        -webkit-box-shadow: 0 0 0px 1000px var(--bg-color-sektion) inset;
+    }
 }
 
 .form-name{
@@ -223,13 +229,6 @@
     margin-top: 4px;
     border-radius: 4px;
     border: 1px solid rgba(33, 33, 33, 0.2);
-}
-
-.mail:-webkit-autofill,
-.mail:-webkit-autofill:hover, 
-.mail:-webkit-autofill:focus{
-    -webkit-text-fill-color: var(--background-color-white);
-    -webkit-box-shadow: 0 0 0px 1000px var(--bg-color-sektion) inset;
 }
 
 .name-box-position{
@@ -247,20 +246,15 @@
     fill: var(--background-color-white);
 }
 
-.btn-footer:focus .social-item-btn,
-.btn-footer:hover .social-item-btn{  
-    fill: var(--accent-color-blue);
-    transition-duration: 300ms;
-}
-
 .btn-footer{
     position: relative;
     padding-right: 28px;
     margin-top: 20px;
     margin-left: 130px;
-}
 
-.footer .logo{
-    margin-left: 163px;
+    &:focus .social-item-btn,
+    &:hover .social-item-btn{  
+        fill: var(--accent-color-blue);
+        transition-duration: 300ms;
+    }
 }
-

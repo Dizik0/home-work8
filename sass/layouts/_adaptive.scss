@@ -1,6 +1,10 @@
 @media screen and (min-width: 768px){
     .container{
         width: 768px;
+    
+        &.header-container{
+            align-items: center;
+        }
     }
 
     .container-footer{
@@ -16,10 +20,6 @@
         align-items: center;
     }
 
-    .container.header-container{
-        align-items: center;
-    }
-
     .menu{
         display: flex;
     }
@@ -29,7 +29,9 @@
         align-items: center;
     }
 
-   
+    .header{
+        height: 80px;
+    }
 
     .text-nav{
         display: inline;
@@ -38,38 +40,40 @@
         font-size: 14px;
         line-height: 1.142;
         letter-spacing: 0.02em;   
-    }
-
-    .header{
-        height: 80px;
-    }
-
-    .text-nav::after{
-        margin-top: 29px;
-        left: 0;
-        right: 0;
-
-    }
-
-    .text-nav.focus-studio::after{
-        left: 0;
-        right: 0;
+    
+        &::after{
+            margin-top: 29px;
+            left: 0;
+            right: 0;
+    
+        }
+    
+        &.focus-studio::after{
+            left: 0;
+            right: 0;
+        }
     }
 
      .nav-text{
         margin-right: 50px;
+
+        &:last-child {
+            margin-right: 84px;
+        }
     }
     
-    .nav-text:last-child {
-        margin-right: 84px;
-    }
+
 
     .link-contact{
         margin-bottom: 10px;
-    }
 
-    .link-contact:last-child{
-        margin-bottom: 0px;
+        &:last-child{
+            margin-bottom: 0px;
+        }
+
+        &:last-child{
+            margin-bottom: 0px;
+        }
     }
 
     .link-svg{
